@@ -1,0 +1,510 @@
+body{
+    margin: 0px auto;
+    font-family: Roboto,Arial,sans-serif;
+}
+.hang1{
+    width: 100%;
+    height: 45px;
+    background-color: #f6f6f6;
+    /* margin: 0px; */
+    /* position: relative; */
+}
+.hang1 p{
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hang2{
+    display: flex;
+    position:relative
+}
+.hang2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cum1{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.cum1 input{
+    width: 170px;
+    height: 30px;
+    border-radius: 19px;
+}
+.cum2{
+    margin-right: 283px;
+}
+.cum3{
+    margin-top: 20px;
+}
+.cum1{
+     /* sửa tại đay */
+}
+.cum2{
+     /* sửa tại đay */
+}
+.cum3{
+    /* sửa tại đay */
+}
+.cum3 .hinhtron{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px slategrey solid;
+    float: right;
+    margin-right: 10px;
+}
+
+.col{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-bottom: -10px;
+}
+.col a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 17px;  
+    
+}
+.col a:hover{
+    padding: 15px;
+    color: #d8d8d8;
+}
+.col li{
+    list-style: none;
+    
+}
+.col li:hover{
+    background-color: rgb(118, 125, 125);
+}
+.col img{
+    width: 29px;
+    height: 33px;
+    margin-right: 44px;
+    margin-top: 7px;
+}
+.hang3-1{
+    width: 100px;
+    height: 260px;
+    background-color: #d8d8d8;
+    display: none;
+}
+.col2{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -10px;
+}
+.col2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+}
+.col2 li{
+    list-style: none;
+}
+
+.hang4 .but- img{
+    margin-right: 9%;
+    width: 585px;
+    height: 250px;
+    float: right;
+    margin-top: -18%;
+
+}
+.hang4 a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.vii{
+   margin-left: 10%;
+   border-radius: 10px;width: 500px;margin-left: 10%;
+   margin-top: 5px;
+
+}
+.hang6{
+    height: 200px;
+    width: 100%;
+    background-color:#d8d8d8;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+}
+.logof img{
+    width: 300px;
+    height: 120px;
+    margin-left: 10%; 
+    margin-top: 10px;
+
+}
+.logof p{
+    margin-left: 10%; 
+}
+.logof2 img{
+    width: 180px;
+    height: 80px;
+}
+.main-1{
+
+}
+img.bct{
+    float: right;
+    margin-right: 10%;
+    margin-top: -11%;
+    width: 200px;
+    height: auto;
+}
+.nguoinx{
+    /* border: 1px solid; */
+    display: flex;
+}
+.grid-tem{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 125px 150px ;
+    grid-gap:30px;
+    margin: 0 10%;
+
+    grid-template-areas: 
+    "aa aa bb"
+    "aa aa cc"
+    
+
+    ;
+}
+.item1{
+    grid-area:aa ;
+
+}
+.item4{
+    grid-area: cc;
+
+}
+.item3{
+    grid-area: bb;
+
+
+}
+.lh img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    position:fixed;
+    right:50px;
+    
+}
+
+
+                         /* ĐIỆN THOẠI */
+@media (max-width:780px) {           
+    .hang2{
+        display: block;
+        padding: 27px;
+       
+    }
+    .cum1{
+        margin-left: 60px;
+        display: contents;
+    }
+    .cum1 input{
+        width: 215px;
+    }
+    .cum2{
+        padding-top: 10px;    
+    }
+    .cum3{
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    .col img{
+        margin-left:-75px;
+    }
+    .col a{
+        display: none;
+    }
+    .hang3-1{
+        display: none;
+        padding: 1px;
+        width: 400px;
+    } 
+    .vii{
+        width: 310px;
+        margin-top: 5px;
+    }
+    .hang4 .but- img{
+        margin-right: 0px;
+        width: 100%;
+        height: 250px;
+        margin-top: -2%;
+    
+    }
+    .hang6{
+        height: 400px;
+    }
+    img.bct{
+        float: right;
+        margin-right: 0%;
+        margin-top: -1%;
+        width: 150px;
+        height: auto;
+    }
+    .grid-tem{
+        display: grid;
+        grid-template-columns: 80px 100px 100px;
+        grid-template-rows: 50px 60px ;
+      
+        grid-template-areas: 
+        "aa aa bb"
+        "aa aa cc"
+        
+    
+        ;
+    }
+    .item1{
+        /* grid-area: aa; */
+        /* max-width: 100px; */
+    }
+    .item3{
+        /* max-width: 100px; */
+    }
+    .item4{
+        /* max-width: 100px; */
+    }
+    .lh img {
+        width: 60px;
+        height: 60px;
+        border-radius: 60%;
+        position: fixed;
+        right: 9px;
+    }
+    /* .item1{
+        max-width: 30%;
+    max-height: 30%;
+    }
+    .item2{
+        max-width: 30%;
+    max-height: 30%;
+    }
+    .item3{
+        max-width: 30%;
+    max-height: 30%;
+    }
+    .item4{
+        max-width: 30%;
+    max-height: 30%;
+    } */
+    
+
+    
+
+
+ 
+                                /* MACBOOK */
+}
+.lh{
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chocolate;
+    float: right;
+    position: relative; */
+}
+
+
+@media (min-width:780px) {
+   .col img{
+    display: none;
+   }
+   main{
+       margin-left: 10%;
+       /* margin-right: 10%; */
+   }
+   .hang5 {
+    display: flex;
+   }
+   .hang5 article{
+    border: 1px rgb(209, 190, 190) solid;
+    margin-right: 50px;
+    border-radius: 10px;
+   }
+   .hang5 img{
+    width: 250px;
+    height: 250px;
+   }
+   .hang5 p{
+    margin-left: 15px;
+   }
+   .hang1{
+    width: 100%;
+    height: 45px;
+    background-color: #f6f6f6;
+    /* margin: 0px; */
+    /* position: relative; */
+}
+.hang1 p{
+    float: right;
+
+    margin-right: 10%;
+}
+.hang2{
+    display: flex;
+    position:relative
+}
+.hang2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cum1{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.cum1 input{
+    width: 170px;
+    height: 30px;
+    border-radius: 19px;
+}
+.cum2{
+    margin-right: 283px;
+}
+.cum3{
+    margin-top: 20px;
+}
+.cum1{
+     /* sửa tại đay */
+}
+.cum2{
+     /* sửa tại đay */
+}
+.cum3{
+    display: flex;
+    /* sửa tại đay */
+}
+.cum3 .hinhtron{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px slategrey solid;
+    float: right;
+    margin-right: 10px;
+}
+.hang3{
+    width: 100%;
+    height: 50px;
+    background-color: #d8d8d8;
+
+}
+.col{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-bottom: -10px;
+}
+.col a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 17px;  
+    
+}
+.col li{
+    list-style: none;
+    
+}
+.col img{
+    width: 29px;
+    height: 33px;
+    margin-right: 44px;
+    margin-top: 7px;
+}
+.hang3-1{
+    width: 100px;
+    height: 260px;
+    background-color: #d8d8d8;
+    display: none;
+}
+.col2{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -10px;
+}
+.col2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+}
+.col2 li{
+    list-style: none;
+}
+
+.hang4 .but- img{
+    margin-right: 9%;
+    width: 585px;
+    height: 250px;
+    float: right;
+    margin-top: -18%;
+  
+
+}
+.hang4 a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.vii{
+   margin-left: 10%;
+   border-radius: 10px;width: 500px;margin-left: 10%;
+   margin-top: 5px;
+
+}
+.hang6{
+    height: 200px;
+    width: 100%;
+    background-color:#d8d8d8;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+}
+.logof img{
+    width: 300px;
+    height: 120px;
+    margin-left: 10%; 
+    margin-top: 10px;
+
+}
+.logof p{
+    margin-left: 10%; 
+}
+.logof2 img{
+    width: 180px;
+    height: 80px;
+}
+.main-1{
+
+}
+img.bct{
+    float: right;
+    margin-right: 10%;
+    margin-top: -11%;
+    width: 200px;
+    height: auto;
+}
+
+
+}
+
+
+
+
+
+
+

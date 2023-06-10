@@ -1,0 +1,133 @@
+body{
+    margin: 1px;
+}
+.hang1{
+    width: 100%;
+    height: 45px;
+    background-color: #f6f6f6;
+    /* margin: 0px; */
+    position: relative;
+}
+.hang2{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: -2%;
+    position: relative;
+}
+.hang2 .hang2-1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+}
+.hang2 img{
+    width: 270px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.hang2 input{
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+.muahang{
+    /* sửa tại đay */
+}
+.muahang .hinhtron {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px slategrey solid;
+    float: right;
+    display: flex;
+    margin-right: 10px;
+}
+
+
+
+/* Điện thoại ngang và Máy tính bảng dọc              máy tính bảng */
+@media screen and (min-width:768px) {
+    .hang2{
+        display: block;
+        padding-bottom: 90px;
+    }
+    hang2 input {
+        padding: 11px;
+        width: 263px;
+        margin-top: 22px;
+    }
+    .hang2 img {
+        width: 270px;
+        margin-left: 10px;
+        padding-top: 40px;
+    }
+    .muahang .hinhtron{
+        width: 53px;
+       height: 53px;
+       border-radius: 100%;
+       border: 1px slategrey solid;
+       float: right;
+       display: flex;
+       margin-top: 10px;
+       margin-right: 35px;
+    }
+
+}
+
+/* Laptop/Desktop  và máy tính bảng ngang          máy tính */
+@media screen and (min-width:1024px) {
+  .muahang .hinhtron{
+    margin-bottom: 30px;
+  }
+  .hang2{
+    position: relative;
+  }
+  .hang2 img{
+    margin-left: -60px;
+  }
+  .hang2-1 input{
+    width: 300px;
+    height: 30px;
+  }
+}
+
+/* hjdhsjhskgdfkjd */
+
+
+/* Điện thoại đứng                                 điện thoại */
+@media screen and (min-width:240px) {
+    .hang2{
+        display: block;
+        padding-bottom: 90px;
+    }
+    hang2 input {
+        padding: 10px;
+        width: 274px;
+        margin-top: 28px;
+    }
+    .hang2 img {
+        width: 270px;
+        margin-left: -240px;
+        padding-top: 40px;
+    }
+    .muahang .hinhtron{
+        width: 53px;
+       height: 53px;
+       border-radius: 100%;
+       border: 1px slategrey solid;
+       float: right;
+       display: flex;
+       margin-top: 10px;
+       margin-right: 35px;
+    }
+}
+/* Điện thoại ngang và Máy tính bảng dọc*/
+@media screen and (min-width:768px) {
+
+  
+}
+/* Laptop/Desktop  và máy tính bảng ngang*/
+@media screen and (min-width:1024px) {
+
+
+}
