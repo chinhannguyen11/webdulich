@@ -1,0 +1,64 @@
+main{
+    margin-right: 10%;
+}
+.two{
+    display: flex;
+}
+.two .vuong{
+    border: 1px solid black;
+}
+.two img{
+    width: 700px;
+    margin-right: 40px;
+}
+.nut-mua{
+    width: 130px;
+    height: 70px;
+    background-color: brown;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10%;
+    margin: 70px;
+    padding-top: 10px;
+}
+.nut-mua a{
+    
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+.fback img{
+    width: 100px;
+}
+
+
+/* điện thoại */
+@media (max-width:780px) {
+    main{
+        margin-right: 0px;
+    }
+    .two{
+        display: block;
+    }
+    .two .vuong{
+        border: none;
+    }
+    .two img{
+        width: 395px;
+    }
+    .nut-mua{
+        width: 130px;
+        height: 70px;
+        background-color: brown;
+        text-align: center;
+        font-size: larger;
+        border-radius: 10%;
+        margin: 50px;
+        padding-top: 10px;
+    }
+    .fback img{
+        width: 80px;
+    }
+    
+}
+
